@@ -1,4 +1,6 @@
 import './App.css'
+import ComponentClass from './components/ComponenteClass'
+import ComponenteFuncional from './components/ComponenteFuncional'
 
 function App() {
   let logueado = false
@@ -18,10 +20,17 @@ function App() {
               {estacion} 
               <p key={( index + 1)}> {index}</p> 
               </li> 
-             
-          
-             )) }
+         ))}
         </ul>
+
+        <section>
+          <ComponentClass msg="Hola Soy un componente desde propiedad"/>
+          <br /><br /><br /><br />
+          <ComponenteFuncional msg="Componente Funcional desde prop" />
+          <br /><br /><br /><br />
+          
+        </section>
+ 
       </div>
       
   )
