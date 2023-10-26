@@ -4,6 +4,7 @@ import ComponenteFuncional from './components/ComponenteFuncional'
 import Estado from './components/Estado'
 import Propiedades from './components/Propiedades'
 import RederizadoCondicional from './components/RenderizadoCondicional'
+import RenderizadoElemento from './components/RenderizadoElement'
 
 function App() {
   let logueado = false
@@ -46,6 +47,10 @@ function App() {
           <br /><br /><br /><br />
 
           <RederizadoCondicional />
+
+          <br /><br /><br /><br />
+
+          <RenderizadoElemento />
 
         </section>
  
