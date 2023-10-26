@@ -1,6 +1,7 @@
 import './App.css'
 import ComponentClass from './components/ComponenteClass'
 import ComponenteFuncional from './components/ComponenteFuncional'
+import Estado from './components/Estado'
 import Propiedades from './components/Propiedades'
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
               componenteReact =  {<ComponenteFuncional msg="Componente por Prop"/>}
               />
           <br /><br /><br /><br />
+          <Estado />
 
         </section>
  
