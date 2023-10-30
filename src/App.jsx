@@ -6,6 +6,7 @@ import Propiedades from './components/Propiedades'
 import RederizadoCondicional from './components/RenderizadoCondicional'
 import RenderizadoElemento from './components/RenderizadoElement'
 import {MasSobreEventos} from './components/Eventos'
+import UseStateHook from './components/useStateHook'
 
 function App() {
   let logueado = false
@@ -14,7 +15,7 @@ function App() {
   return (
    
       <div>
-        Hola
+        {/* Hola
         <label htmlFor="nombre">Ingresar Nombre</label>
         <input id="nombre"/>
         { logueado ? <p>Estas Logueado</p> : <p>No se encuentra usuario logueado</p> }
@@ -26,9 +27,11 @@ function App() {
               <p key={( index + 1)}> {index}</p> 
               </li> 
          ))}
-        </ul>
+        </ul> */ }
+       
 
         <section>
+          {/*
           <ComponentClass msg="Hola Soy un componente desde propiedad"/>
           <br /><br /><br /><br />
           <ComponenteFuncional msg="Componente Funcional desde prop" />
@@ -56,7 +59,9 @@ function App() {
           <br /><br /><br /><br />
 
           <MasSobreEventos />
-
+           */}
+          
+           <UseStateHook titulo="Es segunda prop"/>
         </section>
  
       </div>
